@@ -18,7 +18,7 @@
     "react-scripts": "3.4.1",
     "styled-components": "^5.1.0"
   },
-  "homepage": "http://abhishekalekar.github.io/create-react-app-portfolio",
+  "homepage": "https://abhishekalekar.github.io/create-react-app-portfolio",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
