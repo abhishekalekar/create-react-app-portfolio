@@ -10,7 +10,6 @@
     "@testing-library/user-event": "^7.2.1",
     "carbon-components": "^10.11.2",
     "carbon-components-react": "^7.11.3",
-    "gh-pages": "^2.2.0",
     "node-sass": "^4.14.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -41,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
