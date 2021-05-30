@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 // 30-5-2021 Updated index.js file to fixed blank page issue
->>>>>>> 88a85b11d70a6c4d57e012e592830d77aef7b2c0
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, BrowserRouter, Link } from 'react-router-dom';
 import Me from './Me';
