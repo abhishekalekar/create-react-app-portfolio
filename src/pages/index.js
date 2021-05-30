@@ -1,6 +1,6 @@
-
+// 30-5-2021 Updated index.js file to fixed blank page issue
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, BrowserRouter, Link } from 'react-router-dom';
 import Me from './Me';
 import Projects from './Projects';
 import Work from './Work';
@@ -9,17 +9,20 @@ import Education from './Education';
 const Pages = ({ user }) => {
   return (
     <Router>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+          <Link to ="/create-react-app-portfolio"/>
+      </BrowserRouter>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/create-react-app-portfolio/">
           <Me user={user} />
         </Route>
-        <Route path="/projects">
+        <Route path="/create-react-app-portfolio/projects">
           <Projects user={user} />
         </Route>
-        <Route path="/work">
+        <Route path="/create-react-app-portfolio/work">
           <Work user={user} />
         </Route>
-        <Route path="/education">
+        <Route path="/create-react-app-portfolio/education">
           <Education user={user} />
         </Route>
       </Switch>
