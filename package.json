@@ -2,7 +2,6 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-<<<<<<< HEAD
   "homepage": "http://abhishekalekar.github.io/create-react-app-portfolio",
   "dependencies": {
     "@carbon/icons-react": "^10.14.0",
@@ -27,31 +26,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-=======
-  "dependencies": {
-    "@carbon/icons-react": "^10.10.2",
-    "@carbon/themes": "^10.11.2",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "carbon-components": "^10.11.2",
-    "carbon-components-react": "^7.11.3",
-    "node-sass": "^4.14.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1",
-    "styled-components": "^5.1.0"
-  },
-  "homepage": "https://abhishekalekar.github.io/create-react-app-portfolio",
-  "scripts": {
-    "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
->>>>>>> 88a85b11d70a6c4d57e012e592830d77aef7b2c0
   },
   "eslintConfig": {
     "extends": "react-app"
