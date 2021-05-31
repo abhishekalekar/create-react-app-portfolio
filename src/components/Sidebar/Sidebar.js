@@ -5,10 +5,10 @@ import { SideNavItems, SideNavLink } from 'carbon-components-react/lib/component
 import { StyledSideNav } from './styles';
 
 const items = [
-  { name: 'Me', path: '/' },
-  { name: 'Projects', path: '/projects' },
-  { name: 'Work', path: '/work' },
-  { name: 'Education', path: '/education' },
+  { name: 'Me', path: '/create-react-app-portfolio/' },
+  { name: 'Projects', path: '/create-react-app-portfolio/projects' },
+  { name: 'Work', path: '/create-react-app-portfolio/work' },
+  { name: 'Education', path: '/create-react-app-portfolio/education' },
 ];
 
 const Sidebar = () => {
