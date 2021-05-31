@@ -26,8 +26,6 @@ const Projects = ({ user }) => {
   );
 };
 
-<<<<<<< HEAD
+
 export default Projects;
-=======
-export default Projects;
->>>>>>> 88a85b11d70a6c4d57e012e592830d77aef7b2c0
+

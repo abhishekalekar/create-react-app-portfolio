@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> 88a85b11d70a6c4d57e012e592830d77aef7b2c0
 import React from 'react';
 import Layout from '../../components/Layout';
 import { SectionTitle, Paragraph } from '../../styles';
@@ -32,8 +29,7 @@ const Work = ({ user }) => {
   );
 };
 
-<<<<<<< HEAD
+
 export default Work;
-=======
-export default Work;
->>>>>>> 88a85b11d70a6c4d57e012e592830d77aef7b2c0
+
+

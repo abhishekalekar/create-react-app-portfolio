@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 88a85b11d70a6c4d57e012e592830d77aef7b2c0
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { SideNavItems, SideNavLink } from 'carbon-components-react/lib/components/UIShell';
@@ -38,8 +34,6 @@ const Sidebar = () => {
   );
 };
 
-<<<<<<< HEAD
+
 export default Sidebar;
-=======
-export default Sidebar;
->>>>>>> 88a85b11d70a6c4d57e012e592830d77aef7b2c0
+
